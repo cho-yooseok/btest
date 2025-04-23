@@ -50,7 +50,7 @@ public class ReviewController {
 	 * 프로젝트의 UserDetails 구현체에 따라 변경 필요
 	 */
 	private Long extractUserId(UserDetails userDetails) {
-		// 실제 구현에 맞게 캐스팅 및 추출
+		// 실제 구현에 맞게 캐스팅 및 추출 //
 		// 예: return ((CustomUserDetails) userDetails).getUserId();
 		return 1L; // TODO: 실제 구현체로 교체 필요
 	}
